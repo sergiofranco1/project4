@@ -1,0 +1,17 @@
+html { 
+cursor: url('images/hotcheeto.png'), auto;
+background-image:linear-gradient(to right, #dc1212, #f05d00, #fc9100, #ffc200, #fdf207);
+}
+.grid-4cole { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2vh;
+  border: 1px black solid;
+}
+
+.grid-colspan4 {
+  background-color: rgba(252,145,0,0.4);
+  padding: lem;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+}
