@@ -11,7 +11,21 @@ background-image:linear-gradient(to right, #dc1212, #f05d00, #fc9100, #ffc200, #
 
 .grid-colspan4 {
   background-color: rgba(252,145,0,0.4);
-  padding: lem;
+  padding: 1em;
   grid-column-start: 1;
   grid-column-end: span 4;
 }
+
+.grid-colspan2-a {
+	background-color: rgba(252,145,0,0.4);
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: justify;
+}
+.grid-colspan2-b {
+	background-color :rgba(252,145,0,0.4);
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 2; 
+	text-align: justify;
